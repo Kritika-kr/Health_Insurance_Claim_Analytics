@@ -51,14 +51,9 @@ The dashboard is built using a healthcare insurance claims dataset containing cu
 
 The Executive Dashboard provides a high-level overview of insurance claim performance using interactive KPIs and business visualizations.
 
-## Dashboard Preview
+### Dashboard Preview
 
-
-markdown
-![Executive Dashboard](images/Executive%20Dashboard.png)
-
-
----
+![Executive Dashboard](images/executive_dashboard.png)
 
 # 📈 Key Performance Indicators (KPIs)
 
