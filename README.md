@@ -53,7 +53,6 @@ The Executive Dashboard provides a high-level overview of insurance claim perfor
 
 ## Dashboard Preview
 
-> Add the dashboard screenshot inside the **images** folder.
 
 ```markdown
 ![Executive Dashboard](images/executive_dashboard.png)
