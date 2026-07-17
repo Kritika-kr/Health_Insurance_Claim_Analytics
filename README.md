@@ -55,7 +55,7 @@ The Executive Dashboard provides a high-level overview of insurance claim perfor
 
 
 ```markdown
-![Executive Dashboard](images/executive_dashboard.png)
+![Executive Dashboard](images/Executive%20Dashboard.png)
 ```
 
 ---
