@@ -1,249 +1,245 @@
 # 🏥 Indian Health Insurance Claims Analytics Dashboard
 
-An interactive **Power BI Executive Dashboard** that provides comprehensive insights into health insurance claims across India. The dashboard enables insurance companies, healthcare organizations, and business analysts to monitor claim trends, evaluate financial performance, analyze customer risk factors, and make data-driven decisions through intuitive visualizations and KPIs.
+A comprehensive **Power BI Business Intelligence Dashboard** built using **6,000+ Indian Health Insurance Claims** to analyze claim trends, customer health risks, hospital performance, and insurance policy insights. The dashboard transforms raw insurance data into interactive visualizations and actionable business insights to support data-driven decision-making.
 
 ---
 
 ## 📌 Project Overview
 
-The Indian Health Insurance Claims Analytics Dashboard transforms raw healthcare insurance data into meaningful business insights. It provides a centralized view of insurance claims, policy performance, customer demographics, hospital utilization, and health indicators, helping stakeholders understand claim patterns and optimize decision-making.
+The healthcare insurance industry generates massive volumes of claim data every day. This project focuses on transforming raw health insurance claim records into meaningful insights using **Power BI**, **Power Query**, and **DAX**.
+
+The dashboard helps answer key business questions such as:
+
+- Which policy type generates the highest claim value?
+- Which customer segments contribute the most to claim costs?
+- How do lifestyle habits affect insurance claims?
+- Which hospitals incur the highest treatment costs?
+- What health conditions are associated with higher claims?
 
 ---
 
-## 🎯 Objectives
+# 🎯 Objectives
 
-- Analyze health insurance claim trends over time.
-- Monitor key insurance performance metrics.
-- Compare claim amounts across different policy types.
-- Analyze customer demographics and health indicators.
-- Evaluate hospital utilization and healthcare expenses.
+- Analyze overall insurance claim performance.
 - Identify high-risk customer segments.
-- Support data-driven business decisions.
+- Study the impact of lifestyle habits on claim costs.
+- Compare policy performance.
+- Analyze hospital-wise treatment costs.
+- Build an interactive executive dashboard for business users.
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🛠️ Tech Stack
 
-- Microsoft Power BI
-- Power Query
-- DAX (Data Analysis Expressions)
+- **Power BI Desktop**
+- **Power Query**
+- **DAX**
+- **Microsoft Excel**
 
 ---
 
 # 📂 Dataset Information
 
-The dashboard is built using a healthcare insurance claims dataset containing customer demographics, policy details, hospital information, health conditions, and insurance claim records.
+**Dataset:** Indian Health Insurance Claims
 
-### Dataset Categories
+**Total Records:** 6,000+
 
-| Category | Fields |
-|----------|--------|
-| Customer Information | Customer ID, Age, Gender, State |
-| Insurance Details | Policy Type, Premium Amount |
-| Claim Details | Claim ID, Claim Date, Claim Amount |
-| Hospital Information | Hospital Tier, Hospital Bill, Hospital Stay |
-| Health Metrics | BMI, Diabetes Status, Hypertension Status |
-| Lifestyle Factors | Smoking Status, Alcohol Consumption |
+### Dataset includes:
 
----
-
-# 📊 Executive Dashboard
-
-The Executive Dashboard provides a high-level overview of insurance claim performance using interactive KPIs and business visualizations.
-
-### Dashboard Preview
-
-![Executive Dashboard](images/executive_dashboard.png)
-
-# 📈 Key Performance Indicators (KPIs)
-
-| KPI | Description |
-|------|-------------|
-| Total Claims | Total number of insurance claims |
-| Total Claim Amount | Overall claim amount processed |
-| Average Claim Amount | Average amount claimed per customer |
-| Average Hospital Bill | Average hospitalization expense |
-| Average Hospital Stay | Average duration of hospital stay |
-| Average BMI | Average Body Mass Index of insured customers |
-
----
-
-# 📊 Dashboard Components
-
-### 📈 Annual Claim Trend
-
-Displays yearly claim amounts to identify long-term claim patterns and seasonal trends.
-
----
-
-### 💰 Claim Amount by Policy Type
-
-Compares insurance claim amounts across different policy types, helping evaluate policy performance.
-
----
-
-### ⚖️ Claim Amount by BMI Category
-
-Analyzes claim distribution among different BMI groups to understand the impact of health conditions on claim costs.
-
----
-
-### ❤️ Claim Amount by Hypertension Status
-
-Shows claim amount comparison between customers with and without hypertension.
-
----
-
-### 👥 Claim Amount by Age Group
-
-Identifies age groups contributing the highest insurance claim amounts.
-
----
-
-### 🌍 Claim Amount by State
-
-Provides state-wise distribution of claim amounts for regional analysis.
-
----
-
-### 🩺 Claim Amount by Diabetes Status
-
-Compares healthcare expenses between diabetic and non-diabetic customers.
-
----
-
-### 🏥 Claim Amount by Hospital Tier
-
-Displays claim distribution among Government, Private Small, and Private Corporate hospitals.
-
----
-
-# 🎛️ Interactive Filters
-
-Users can dynamically filter the dashboard using:
-
+- Customer Demographics
 - Gender
+- Age
 - State
-- Claim Date
-- Hospital Tier
 - Policy Type
-
-These slicers enable customized analysis and interactive exploration of insurance data.
-
----
-
-# 📊 Business Insights
-
-### 📈 Claim Trends
-
-- Insurance claim amounts increased steadily before reaching a peak and gradually declining in later years.
-- Trend analysis helps identify periods of high claim activity.
-
----
-
-### 💰 Policy Performance
-
-- Individual policies account for the highest total claim amount.
-- Family Floater policies contribute the second-highest claim value.
-- Senior Citizen policies have comparatively lower total claim amounts.
+- Claim Amount
+- Hospital Bill
+- Hospital Tier
+- Cashless Claim
+- Length of Stay
+- BMI
+- Tobacco Usage
+- Diabetes
+- Hypertension
+- Alcohol Consumption
+- Diet Type
+- Stress Level
 
 ---
 
-### 👥 Age Group Analysis
+# 📊 Dashboard Structure
 
-- Customers aged **30–44 years** contribute the highest claim amounts.
-- The **45–59 years** age group also represents a significant share of healthcare expenses.
-- Younger customers generally generate lower claim amounts.
+## 🏠 Home Page
 
----
+A clean landing page that allows users to navigate to different dashboard sections.
 
-### ⚖️ BMI Analysis
+### Features
 
-- Overweight and Normal BMI categories account for the largest proportion of total claim amounts.
-- Underweight customers contribute the lowest claim expenses.
-
----
-
-### ❤️ Health Condition Analysis
-
-- Non-diabetic customers represent the majority of insurance claims.
-- Customers without hypertension account for a larger share of total claim amounts.
+- Dashboard overview
+- Dataset information
+- Technology used
+- Interactive page navigation
 
 ---
 
-### 🏥 Hospital Analysis
+## 📈 Page 1 — Executive Summary
 
-- Private Corporate hospitals process the highest claim amounts.
-- Private Small hospitals contribute a significant share.
-- Government hospitals account for the lowest claim expenses.
+Provides an overall business overview of insurance claims.
+
+### KPI Cards
+
+- Total Claims
+- Total Claim Amount
+- Average Claim Amount
+- Average Hospital Bill
+- Average Length of Stay
+- Cashless Claim Rate
+
+### Visualizations
+
+- Annual Claim Trend
+- Claim Amount by State
+- Claim Amount by Hospital Tier
+- Policy Performance Summary
+- Claim Amount by Age Group
+- Executive Business Insights
+
+### Key Insights
+
+- Individual policies contribute **48.3%** of total claim value.
+- Family Floater policies have the highest average claim amount.
+- Customers aged **30–44** generate the highest total claim value.
+- Private Corporate hospitals have the highest average claim amounts.
+- Geography has less impact on claim costs than hospital tier or policy type.
 
 ---
 
-### 🌍 Regional Analysis
+## ❤️ Page 2 — Lifestyle & Health Risk Analysis
 
-- Claim amounts vary across different Indian states.
-- Regional analysis helps identify high-cost healthcare markets.
+Analyzes how lifestyle habits and health conditions influence insurance claim costs.
+
+### KPI Cards
+
+- Average Claim Amount
+- Average BMI
+- Average Stress Score
+- Tobacco User Rate
+- Hypertension Rate
+- Diabetes Rate
+- Tobacco Claim Gap %
+
+### Visualizations
+
+- Average Claim Amount by Tobacco Usage
+- Average Claim Amount by BMI Category
+- Hypertension Status
+- Diabetes Status
+- Stress Score vs Claim Amount
+- Executive Business Insights
+
+### Key Insights
+
+- Tobacco users have approximately **25% higher average claim amounts** than non-users.
+- Average claim amount increases across BMI categories, with obese customers recording the highest claims.
+- Customers with hypertension and diabetes have higher average claim amounts.
+- No significant relationship exists between stress score and insurance claim amount.
 
 ---
 
-# 💼 Business Value
+# 📈 Business Insights
 
-This dashboard enables stakeholders to:
+### Policy Analysis
 
-- Monitor insurance claim performance.
-- Identify high-risk customer segments.
-- Compare policy effectiveness.
-- Analyze healthcare expenditure.
-- Optimize hospital partnerships.
-- Support strategic business planning.
-- Improve operational decision-making.
+- Individual policies contribute nearly half of total claim value.
+- Family Floater policies have the highest average claim cost.
+
+### Customer Analysis
+
+- Customers aged 30–44 represent the largest claim-driving segment.
+
+### Hospital Analysis
+
+- Private Corporate hospitals generate significantly higher treatment costs than Government hospitals.
+
+### Lifestyle Analysis
+
+- Tobacco usage is the strongest lifestyle-related risk factor.
+- Higher BMI categories are associated with higher average claim amounts.
+
+### Health Risk Analysis
+
+- Diabetes and hypertension are associated with higher insurance claim amounts.
 
 ---
 
-# 📚 Skills Demonstrated
+# 📌 Dashboard Features
 
-- Business Intelligence
-- Data Visualization
-- Dashboard Design
-- Interactive Reporting
-- KPI Development
+- Interactive Filters
+- Dynamic KPI Cards
+- Multi-page Navigation
+- Executive Summary
+- Health Risk Analysis
+- Responsive Dashboard Layout
+- Business Insight Panels
+- Professional Healthcare Theme
+
+---
+
+# 📷 Dashboard Preview
+
+## 🏠 Home Page
+
+<img width="100%" src="images/home_page.png">
+
+---
+
+## 📊 Executive Summary
+
+<img width="100%" src="images/executive_summary.png">
+
+---
+
+## ❤️ Lifestyle & Health Risk Analysis
+
+<img width="100%" src="images/lifestyle_health_risk.png">
+
+---
+
+# 💡 Skills Demonstrated
+
+- Power BI Dashboard Development
+- Data Cleaning
+- Data Transformation
 - Power Query
-- DAX
+- DAX Measures
 - Data Modeling
+- KPI Design
+- Business Intelligence
+- Interactive Dashboard Design
+- Data Visualization
+- Business Storytelling
 - Healthcare Analytics
-- Analytical Thinking
 
 ---
 
-# 📂 Repository Structure
+# 🚀 Business Value
 
-```
-Indian-Health-Insurance-Claims-Analytics/
-│
-├── Indian_Health_Insurance_Claims_Analytics.pbix
-├── images/
-│   └── executive_dashboard.png
-├── README.md
+This dashboard enables insurance companies to:
 
-```
-
-
-# 🚀 Future Enhancements
-
-
-- Hospital Performance Dashboard
-- Patient Demographics Dashboard
-- Financial Analytics Dashboard
+- Monitor insurance claim trends
+- Identify high-risk customer groups
+- Improve underwriting decisions
+- Optimize healthcare costs
+- Evaluate policy performance
+- Support strategic business decisions through data
 
 ---
 
-
-# 👩‍💻 Author
+# 📬 Contact
 
 **Kritika Kumari**
 
+- **LinkedIn:** https://linkedin.com/in/kritika-kumari-147153266
 - **GitHub:** https://github.com/Kritika-kr
-- **LinkedIn:** https://www.linkedin.com/in/kritika-kumari-147153266
 
 ---
 
